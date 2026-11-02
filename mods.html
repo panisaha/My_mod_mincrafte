@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Mods - My Mod Minecraft</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid #00ff88;
+        }
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .mod-card {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+            border-left: 4px solid #00ff88;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .mod-card h2 {
+            font-size: 1.5rem;
+            color: #00ff88;
+        }
+        .mod-card p {
+            color: #aaaaaa;
+            font-size: 0.95rem;
+        }
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #005f73, #6a00ff);
+            color: white;
+            padding: 12px 24px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: transform 0.2s, opacity 0.3s;
+            opacity: 0.9;
+        }
+        .download-btn:hover {
+            transform: scale(1.02);
+            opacity: 1;
+        }
+        .back-btn {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        .back-btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Available Mods</h1>
+        <p>Browse and download our custom mods</p>
+    </header>
+
+    <div class="container">
+        <div class="mod-card">
+            <h2>Saffron & Rice Mod</h2>
+            <p>Adds Persian food items like Saffron, Rice, Kabab, and Joojeh Kabab to your Minecraft world. Requires Forge 1.20.1.</p>
+            <a href="https://raw.githubusercontent.com/panisaha/My_mod_mincrafte/main/Custom%20Hunger%20(world_template).mctemplate" class="download-btn">Download Saffron & Rice Mod</a>
+        </div>
+        <a href="index.html" class="back-btn">← Back to Home</a>
+    </div>
+
+</body>
+</html>
