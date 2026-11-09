@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <!-- صفحه اصلی سایت مود -->
+  <url>
+    <loc>https://panisaha.github.io/My_mod_mincrafte/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- صفحه‌های داشبورد اصلی تو (ffriend-site) -->
+  <url>
+    <loc>https://panisaha.github.io/ffriend-site/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://panisaha.github.io/ffriend-site/tasks.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://panisaha.github.io/ffriend-site/notes.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://panisaha.github.io/ffriend-site/timer.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://panisaha.github.io/ffriend-site/alarm.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://panisaha.github.io/ffriend-site/links.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://panisaha.github.io/ffriend-site/support.html</loc>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
